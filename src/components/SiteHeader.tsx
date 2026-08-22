@@ -39,7 +39,7 @@ export function SiteHeader() {
             </a>
           )}
           <a
-            href="#start"
+            href="https://dopocode-backend-3xj7.vercel.app/" target="_blank"
             className="rounded-full bg-lime px-5 py-2.5 text-sm font-semibold text-ink transition-colors duration-150 ease-swift hover:bg-lime-dark focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lime/60 focus-visible:ring-offset-2 focus-visible:ring-offset-ink">
             
             Start free trial
