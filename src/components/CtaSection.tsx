@@ -20,7 +20,7 @@ export function CtaSection() {
 
         <div className="mt-9 flex flex-wrap items-center justify-center gap-3">
           <a
-            href="#start"
+            href="https://dopocode-backend-3xj7.vercel.app/" target="_blank"
             className="inline-flex items-center gap-2 rounded-full bg-ink px-7 py-3.5 text-base font-semibold text-lime transition-transform duration-150 ease-swift hover:-translate-y-0.5 hover:bg-ink-soft focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink focus-visible:ring-offset-2 focus-visible:ring-offset-coral">
             
             Start free trial
