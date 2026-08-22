@@ -1,0 +1,51 @@
+/* @import url() FONT IMPORTS MUST ALWAYS BE AT THE VERY TOP OF THIS FILE, ABOVE THE TAILWIND IMPORTS — DO NOT DELETE THIS COMMENT */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@500;600&display=swap');
+
+/* CRITICAL: THE FOLLOWING TAILWIND IMPORTS MUST NEVER BE DELETED OR REORDERED — DO NOT DELETE THIS COMMENT */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* END TAILWIND IMPORTS — ALL OTHER CSS MUST GO BELOW THIS LINE */
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #F4F2E6;
+}
+/* Study-themed surfaces: ruled notebook paper and graph paper, tinted to the ink accent. */
+.bg-notebook {
+  background-image: repeating-linear-gradient(
+    to bottom,
+    rgba(40, 33, 64, 0.08) 0px,
+    rgba(40, 33, 64, 0.08) 1px,
+    transparent 1px,
+    transparent 34px
+  );
+  background-position: 0 12px;
+}
+.bg-graph {
+  background-image:
+    linear-gradient(to right, rgba(40, 33, 64, 0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(40, 33, 64, 0.06) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+.bg-graph-dark {
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 34px 34px;
+}
+.scene-3d {
+  perspective: 1200px;
+  perspective-origin: 50% 40%;
+}
+.layer-3d {
+  transform-style: preserve-3d;
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
